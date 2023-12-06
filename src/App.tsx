@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="App">
-          <Link to="/about">About</Link>
+          <Link to="/about">去看看About组件</Link>
+          <br />
+          <Link to="/">去看看canvas涂抹/擦除组件</Link>
           <Routes>
             {routes.map((route) => (
               <Route
